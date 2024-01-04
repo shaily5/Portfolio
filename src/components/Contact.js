@@ -15,10 +15,10 @@ const Contact = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     send(
-      'service_pwwotem',
-      'template_qr9s3wc',
+      'service_noja5nk',
+      'template_qm2mn5z',
       toSend,
-      'BEzHUk12PVKwoyiwf'
+      'HKI4in8P4wwxUyDqT'
     )
       .then((response) => {
         window.location.reload();
