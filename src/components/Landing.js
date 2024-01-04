@@ -8,7 +8,7 @@ const Landing = () => {
             <div className="intro">
                 <div className="name">
                     <span>Hi<div className="hand">👋🏻</div></span>
-                    <span className='my-name'>I'm Chintan Tripathi</span>
+                    <span className='my-name'>I'm Shaily Patel</span>
                 </div>
                 <div className="typewrite">
                     <Typewriter onInit={(typewriter) => {
