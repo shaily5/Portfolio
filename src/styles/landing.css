@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
+.landing {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background: url('https://images.unsplash.com/photo-1532978379173-523e16f371f2?auto=format&fit=crop&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&q=80&w=1950');
+    border-bottom-right-radius: 1cm;
+    border-bottom-left-radius: 1cm;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    height: 110vh;
+    width: 100%;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-family: Megrim, cursive;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 5rem;
+}
+
+.hand::before{
+    content: attr(data-hover);
+}
+
+.hand{
+    display: inline-block;
+    animation-name: wave-animation;
+    animation-duration: 3.0s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+}
+@keyframes wave-animation {
+    0% {
+    transform: rotate( 0.0deg)
+    }
+    10% {
+    transform: rotate(14.0deg)
+    }
+    20% {
+    transform: rotate(-8.0deg)
+    }
+    30% {
+    transform: rotate(14.0deg)
+    }
+    40% {
+    transform: rotate(-4.0deg)
+    }
+    50% {
+    transform: rotate(10.0deg)
+    }
+    60% {
+    transform: rotate( 0.0deg)
+    }
+    100% {
+    transform: rotate( 0.0deg)
+    }
+    }
+
+
+.my-name {
+    color: #5F7FFF;
+}
+
+.typewrite {
+    font-size: 1.3rem;
+    display: flex;
+    /* text-shadow: 3px 6px 0 rgb(50 50 50 / 15%); */
+    font-weight: 600; 
+    color: white;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.h1 {
+    border-bottom: 1px solid #57BCDA;
+    padding: 10px auto;
+    font-size: 2.5rem;
+    color: #111827;
+}
+
+@media only screen and (max-width: 400px) {
+    .typewrite{
+       font-size: 30px;
+       display: flex;
+        font-weight: 600; 
+        color: #57BCDA;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        padding: 5px 10px;
+    }
+
+    hr{
+        /* transform: rotate(90deg);
+        padding: 0;
+        margin: 0; */
+        display: none;
+    }
+ 
+    .name {
+        font-size: 2.7rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 0 3px;
+    }
+  }  
+
+  @media screen and (max-width: 780px) {
+   body {
+    overflow: visible;
+   }
+  }
