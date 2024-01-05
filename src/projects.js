@@ -1,3 +1,4 @@
+import main from "./assets/Pottervrese.png";
 export const projects = [
   {
     _id: "1",
@@ -26,7 +27,7 @@ export const projects = [
     content:
       "Itchy eyes can be triggered by exposure to pollen, animal fur, mould, dust mites, make-up or eye drops.",
     category: "React.js, Javascript, TailwindCSS  ",
-    image: "",
+    image: main,
     link: "https://github.com/shaily5/Potterverse",
   },
   {
