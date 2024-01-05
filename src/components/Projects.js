@@ -37,7 +37,7 @@ const Projects = () => {
                                 <a href={project.link} target="_blank" className="cardlink">
                                     <img className="iproject" src={project.image} alt="project" />
                                     <h3>{project.title}</h3>
-                                    <span className="span">Category: {project.category}</span>
+                                    {/* <span className="span">Category: {project.category}</span> */}
                                 </a>
                             </div>
                         ))

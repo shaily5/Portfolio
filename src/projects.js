@@ -15,24 +15,14 @@ export const projects = [
     typo: "Front End",
     content:
       "Itchy eyes can be triggered by exposure to pollen, animal fur, mould, dust mites, make-up or eye drops.",
-    category: "Front End ",
+    category: "Front End",
     image: "https://i.ibb.co/VHWc4pk/Kalakari.png",
     link: "https://shaily5.github.io/Kalakari/",
   },
   {
-    _id: "3",
-    title: "Recipe App",
-    typo: 'HTML CSS JS',
-    content:
-      "Itchy eyes can be triggered by exposure to pollen, animal fur, mould, dust mites, make-up or eye drops.",
-    category: "Front End",
-    image: "https://i.ibb.co/VCRxT1J/Recipe-API.png",
-    link: "https://github.com/chintan0513/recipe",
-  },
-  {
     _id: "4",
     title: "Pottervrese",
-    typo: '',
+    typo: 'Front End',
     content:
       "Itchy eyes can be triggered by exposure to pollen, animal fur, mould, dust mites, make-up or eye drops.",
     category: "React.js, Javascript, TailwindCSS  ",
@@ -42,7 +32,7 @@ export const projects = [
   {
     _id: "5",
     title: "Music Recommender",
-    typo: 'Full Stack',
+    typo: 'Python',
     content:
       "Itchy eyes can be triggered by exposure to pollen, animal fur, mould, dust mites, make-up or eye drops.",
     category: "React.js, Javascript, TailwindCSS  ",
@@ -52,7 +42,7 @@ export const projects = [
   {
     _id: "6",
     title: "Aspiring Minds",
-    typo: 'Ruby, C#, Java, JavaScript',
+    typo: 'Full Stack',
     content:
       "A new Flutter project. ",
     category: "React.js, Javascript, TailwindCSS  ",
@@ -62,17 +52,17 @@ export const projects = [
   {
     _id: "7",
     title: "Global Search Engine",
-    typo: '',
+    typo: 'Java',
     content:
       "A search engine is a tool that helps users to find information from the web. For the user,the search engine returns the most accurate matches from the internet. The project covered concepts like web crawling, handling HTML files, website searching, frequency analysis, and pattern evaluation.",
-    category: " ",
-    image: "",
+    category: "Java",
+    image: "Java",
     link: "https://github.com/shaily5/GlobalSearchEngine",
   },
   {
     _id: "8",
     title: "Blogging App",
-    typo: 'Node.js, Express.js, React.js, MongoDB',
+    typo: 'Front End',
     content:
       "Created a Blog App using Node.js and Express.js with MongoDB that allows users to create, update, and delete blogs, as well as users add, update, and delete comments on those blogs.",
     category: "React.js, Javascript, TailwindCSS  ",
@@ -93,11 +83,15 @@ export const buttons = [
     value: "Front End"
   },
   {
-    name: "React.JS",
-    value: "react.js"
-  },
-  {
     name: "Full Stack",
     value: "Full Stack"
+  },
+  {
+    name: "Java",
+    value: "Java"
+  },
+  {
+    name: "Python",
+    value: "Python"
   }
 ];
