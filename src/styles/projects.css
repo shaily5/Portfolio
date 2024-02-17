@@ -11,8 +11,8 @@
 .fproject { 
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
 }
 
 .buttons{
@@ -32,11 +32,15 @@
 }
 
 .projects .card {
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
     flex-wrap: wrap;
+    text-align: center;
+}
+
+.projects .fcard:hover{
+    text-decoration: underline;
 }
 
 .card .fcard {
