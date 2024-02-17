@@ -14,8 +14,12 @@ const About = () => {
                 <hr />
                 <div className="content">
                     <div className='info'>
-                        <p>Hi, there. I am Shaily Patel and I have completed my B.tech in SAL College OF Engineering in 2022. 1.5 years of industry experience in Java, Python, JavaScript, ReactJS, NodeJS, MongoDB, JIRA, Agile.Quick learner with a dynamic mindset, ready to adapt and contribute innovative ideas to drive success in a collaborative and forward-thinking environment.
-                            Seeking internship opportunities to apply extensive knowledge and gain valuable real-world experience.</p>
+                        <p>Hi there! 👋 I am a Master of Applied Computing student at the University of Windsor, currently upskilling myself.</p>
+                        <p>👩‍💻 I have 1.5 years of professional experience in the tech industry, proficient in Java, Python, JavaScript, ReactJS, NodeJS, and MongoDB. 
+                            <br/>I also have a great understanding of Software Development Life Cycle (SDLC), object-oriented concepts, and proficiency in data structures and algorithms.
+                             I am eager to contribute to innovative projects and further enhance my skills in a dynamic work environment.</p>
+                        <p>🌏 Let's connect and explore collaboration opportunities! 🤝</p>
+                        <p>🔎 Currently seeking internship opportunities to apply my extensive knowledge and gain valuable real-world experience.</p>
                     </div>
                     <div className="social-media">
                         <div className='link-group'>
