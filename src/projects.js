@@ -1,4 +1,9 @@
-import main from "./assets/Pottervrese.png";
+import pv from "./assets/Pottervrese.png";
+import mr from "./assets/MusicRecommendation.jpg";
+import am from "./assets/AspiringMinds.jpg";
+import gse from "./assets/Gse.jpg";
+import ba from "./assets/BlogApp.jpg"
+
 export const projects = [
   {
     _id: "1",
@@ -27,7 +32,7 @@ export const projects = [
     content:
       "Itchy eyes can be triggered by exposure to pollen, animal fur, mould, dust mites, make-up or eye drops.",
     category: "React.js, Javascript, TailwindCSS  ",
-    image: main,
+    image: pv,
     link: "https://github.com/shaily5/Potterverse",
   },
   {
@@ -37,7 +42,7 @@ export const projects = [
     content:
       "Itchy eyes can be triggered by exposure to pollen, animal fur, mould, dust mites, make-up or eye drops.",
     category: "React.js, Javascript, TailwindCSS  ",
-    image: "",
+    image: mr,
     link: "https://github.com/shaily5/MusicRecommender",
   },
   {
@@ -47,7 +52,7 @@ export const projects = [
     content:
       "A new Flutter project. ",
     category: "React.js, Javascript, TailwindCSS  ",
-    image: "",
+    image: am,
     link: "https://github.com/shaily5/AspiringMinds/",
   },
   {
@@ -57,7 +62,7 @@ export const projects = [
     content:
       "A search engine is a tool that helps users to find information from the web. For the user,the search engine returns the most accurate matches from the internet. The project covered concepts like web crawling, handling HTML files, website searching, frequency analysis, and pattern evaluation.",
     category: "Java",
-    image: "Java",
+    image: gse,
     link: "https://github.com/shaily5/GlobalSearchEngine",
   },
   {
@@ -67,7 +72,7 @@ export const projects = [
     content:
       "Created a Blog App using Node.js and Express.js with MongoDB that allows users to create, update, and delete blogs, as well as users add, update, and delete comments on those blogs.",
     category: "React.js, Javascript, TailwindCSS  ",
-    image: "",
+    image: ba,
     link: "https://github.com/shaily5/BloggingPlatform",
   }
 ];
