@@ -7,7 +7,7 @@ const Landing = () => {
         <div className='landing' id="home">
             <div className="intro">
                 <div className="name">
-                    <span>Hi<div className="hand">👋🏻</div></span>
+                    <span className="greet">Hi<div className="hand">👋🏻</div></span>
                     <span className='my-name'>I'm Shaily Patel</span>
                 </div>
                 <div className="typewrite">
